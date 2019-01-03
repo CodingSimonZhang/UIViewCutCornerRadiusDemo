@@ -1,4 +1,4 @@
-# UIViewCurCornerRadiusDemo
+# UIViewCutCornerRadiusDemo
 指定UIView的某几个角为圆角
 如果需要将UIView的4个角全部都为圆角，做法相当简单，只需设置其Layer的cornerRadius属性即可（项目需要使用QuartzCore框架）。而若要指定某几个角（小于4）为圆角而别的不变时，这种方法就不好用了。
 对于这种情况，Stackoverflow上提供了几种解决方案。其中最简单优雅的方案，就是使用UIBezierPath。下面给出一段示例代码。
